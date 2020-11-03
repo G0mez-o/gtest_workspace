@@ -1,0 +1,18 @@
+* gtest_workspace
+
+** Install
+#+BEGIN_SRC sh
+cd Install_DIR
+#+END_SRC
+#+BEGIN_SRC sh
+wget https://github.com/google/googletest/archive/release-1.8.0.tar.gz
+#+END_SRC
+#+BEGIN_SRC sh
+tar -zxvf release-1.8.0.tar.gz && cd googletest-release-1.8.0/
+#+END_SRC
+#+BEGIN_SRC sh
+mkdir build && cd build/ && cmake ..
+#+END_SRC
+#+BEGIN_SRC sh
+sudo make && sudo make install
+#+END_SRC
